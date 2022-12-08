@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/zhana/AndroidStudioProjects/ProjectManager/app/src/main/res/layout/activity_card_details.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/zhana/AndroidStudioProjects/TaskBook/app/src/main/res/drawable-anydpi-v24/ic_stat_ic_notification.xml" value="0.3055555555555556" />
+        <entry key="..\:/Users/zhana/AndroidStudioProjects/TaskBook/app/src/main/res/drawable/ic_baseline_book_24.xml" value="0.3055555555555556" />
+        <entry key="..\:/Users/zhana/AndroidStudioProjects/TaskBook/app/src/main/res/drawable/ic_corner_base.xml" value="0.3055555555555556" />
+        <entry key="..\:/Users/zhana/AndroidStudioProjects/TaskBook/app/src/main/res/drawable/nav_header_main_background.xml" value="0.3055555555555556" />
+        <entry key="..\:/Users/zhana/AndroidStudioProjects/TaskBook/app/src/main/res/drawable/shape_button_rounded.xml" value="0.3055555555555556" />
+        <entry key="..\:/Users/zhana/AndroidStudioProjects/TaskBook/app/src/main/res/drawable/white_border_shape_button_rounded.xml" value="0.3055555555555556" />
+        <entry key="..\:/Users/zhana/AndroidStudioProjects/TaskBook/app/src/main/res/layout-v23/activity_intro.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/zhana/AndroidStudioProjects/TaskBook/app/src/main/res/layout/activity_card_details.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/zhana/AndroidStudioProjects/TaskBook/app/src/main/res/layout/activity_intro.xml" value="0.22" />
+        <entry key="..\:/Users/zhana/AndroidStudioProjects/TaskBook/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/zhana/AndroidStudioProjects/TaskBook/app/src/main/res/layout/activity_members.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/zhana/AndroidStudioProjects/TaskBook/app/src/main/res/layout/activity_sign_in.xml" value="0.33" />
+        <entry key="..\:/Users/zhana/AndroidStudioProjects/TaskBook/app/src/main/res/layout/activity_sign_up.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/zhana/AndroidStudioProjects/TaskBook/app/src/main/res/layout/activity_splash.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/zhana/AndroidStudioProjects/TaskBook/app/src/main/res/layout/activity_task_list.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/zhana/AndroidStudioProjects/TaskBook/app/src/main/res/layout/content_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/zhana/AndroidStudioProjects/TaskBook/app/src/main/res/layout/nav_header_main.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
