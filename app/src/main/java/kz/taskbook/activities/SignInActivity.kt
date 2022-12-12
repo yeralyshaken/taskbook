@@ -1,8 +1,10 @@
 package kz.taskbook.activities
 
+import android.content.ContentValues.TAG
 import android.content.Intent
 import android.os.Bundle
 import android.text.TextUtils
+import android.util.Log
 import android.view.WindowManager
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
@@ -74,6 +76,7 @@ class SignInActivity : BaseActivity() {
                             task.exception!!.message,
                             Toast.LENGTH_LONG
                         ).show()
+                        Log.e(TAG, "Error: " + task.exception!!.message)
                     }
                 }
         }

@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "156934686231",
-    "project_id": "mobileapp-15102",
-    "storage_bucket": "mobileapp-15102.appspot.com"
+    "project_number": "38091857153",
+    "project_id": "taskbook-f61fb",
+    "storage_bucket": "taskbook-f61fb.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:156934686231:android:177952f5cb0fb2889abe52",
+        "mobilesdk_app_id": "1:38091857153:android:fd18c63d222ad03b9c8f00",
         "android_client_info": {
           "package_name": "kz.taskbook"
         }
       },
       "oauth_client": [
         {
-          "client_id": "156934686231-qhfc2cimdvvg2ihnemi8n32a6srh207t.apps.googleusercontent.com",
+          "client_id": "38091857153-umevj0r4thsasarks5714t8jknvsgsiv.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB5lcpFSqH4Hfa3msOZJBremUiM-Q4uFmw"
+          "current_key": "AIzaSyCOGPfvZ2HXKv4uKvD_wWRppQRrn8DS8zg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "156934686231-qhfc2cimdvvg2ihnemi8n32a6srh207t.apps.googleusercontent.com",
+              "client_id": "38091857153-umevj0r4thsasarks5714t8jknvsgsiv.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

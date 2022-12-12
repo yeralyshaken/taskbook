@@ -28,38 +28,18 @@ import kotlinx.android.synthetic.main.content_main.*
 
 
 class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedListener {
-
-    // A global variable for User Name
     private lateinit var mUserName: String
-
-    // A global variable for SharedPreferences
     private lateinit var mSharedPreferences: SharedPreferences
 
-    /**
-     * This function is auto created by Android when the Activity Class is created.
-     */
     override fun onCreate(savedInstanceState: Bundle?) {
-        //This call the parent constructor
         super.onCreate(savedInstanceState)
-
-        // This is used to align the xml view to this class
         setContentView(R.layout.activity_main)
-
         setupActionBar()
 
-        // Assign the NavigationView.OnNavigationItemSelectedListener to navigation view.
         nav_view.setNavigationItemSelectedListener(this)
-
-        mSharedPreferences =
-            this.getSharedPreferences(Constants.PROGEMANAG_PREFERENCES, Context.MODE_PRIVATE)
-
-        // Variable is used get the value either token is updated in the database or not.
+        mSharedPreferences = this.getSharedPreferences(Constants.PROGEMANAG_PREFERENCES, Context.MODE_PRIVATE)
         val tokenUpdated = mSharedPreferences.getBoolean(Constants.FCM_TOKEN_UPDATED, false)
-
-        // Here if the token is already updated than we don't need to update it every time.
         if (tokenUpdated) {
-            // Get the current logged in user details.
-            // Show the progress dialog.
             showProgressDialog(resources.getString(R.string.please_wait))
             FirestoreClass().loadUserData(this@MainActivity, true)
         } else {

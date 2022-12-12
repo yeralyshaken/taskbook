@@ -1,7 +1,9 @@
 package kz.taskbook.activities
 
+import android.content.ContentValues
 import android.os.Bundle
 import android.text.TextUtils
+import android.util.Log
 import android.view.WindowManager
 import android.widget.Toast
 import com.google.android.gms.tasks.OnCompleteListener
@@ -70,6 +72,7 @@ class SignUpActivity : BaseActivity() {
                             val user = User(
                                 firebaseUser.uid, name, registeredEmail
                             )
+                            Log.w(ContentValues.TAG, "Warning: $registeredEmail")
 
                             // call the registerUser function of FirestoreClass to make an entry in the database.
                             FirestoreClass().registerUser(this@SignUpActivity, user)
@@ -79,6 +82,8 @@ class SignUpActivity : BaseActivity() {
                                 task.exception!!.message,
                                 Toast.LENGTH_SHORT
                             ).show()
+                            Log.e(ContentValues.TAG, "Error: " + task.exception!!.message)
+
                         }
                     })
         }
